@@ -1,29 +1,29 @@
-CivicPulse — AI Citizen Infrastructure Alignment Platform
+🏙️ NagarMithra — AI Citizen Infrastructure Alignment Platform
 
-CivicPulse is an open-source, multilingual AI platform designed to connect citizen infrastructure needs with public infrastructure planning and investment.
+NagarMithra is an open-source, multilingual AI platform designed to connect citizen infrastructure needs with public infrastructure planning and investment.
 
 The platform collects citizen complaints and petitions through text, voice, and multiple communication channels, analyzes them using AI and geospatial techniques, identifies infrastructure demand hotspots, and provides decision-support tools for public-sector planning.
 
-CivicPulse currently focuses on infrastructure sectors such as:
+NagarMithra currently focuses on infrastructure sectors such as:
 
-Water & Sanitation
+💧 Water & Sanitation
 
-Roads & Mobility
+🛣️ Roads & Mobility
 
-Clean Energy
+⚡ Clean Energy
 
-Healthcare
+🏥 Healthcare
 
-Digital Public Infrastructure
+🌐 Digital Public Infrastructure
 
-Education
+🎓 Education
 
-Flood & Climate Resilience
+🌱 Flood & Climate Resilience
 
 The project is designed with Digital Public Good (DPG) principles, including open standards, interoperability, multilingual accessibility, privacy protection, and transparent decision-support mechanisms.
 
 🌍 Key Features
-Multilingual Citizen Platform
+🗣️ Multilingual Citizen Platform
 
 Accepts citizen complaints through text and voice.
 
@@ -33,7 +33,7 @@ Performs language detection, translation, classification, and urgency analysis.
 
 Supports citizen petitions and community upvoting.
 
-GIS & Infrastructure Hotspot Analysis
+🗺️ GIS & Infrastructure Hotspot Analysis
 
 Uses geographic data to identify areas with concentrated infrastructure demands.
 
@@ -41,7 +41,7 @@ Uses DBSCAN clustering for spatial hotspot detection.
 
 Provides interactive maps and district-level information.
 
-AI Project Prioritization
+🤖 AI Project Prioritization
 
 Uses Multi-Criteria Decision Analysis (MCDA) to evaluate infrastructure projects.
 
@@ -49,25 +49,25 @@ Considers demand, infrastructure deficit, vulnerability, and feasibility.
 
 Provides estimated beneficiaries, project timelines, costs, and SDG alignment.
 
-Public Spending Analysis
+💰 Public Spending Analysis
 
 Compares citizen demand and infrastructure deficits with planned capital spending.
 
 Identifies areas where demand and planned investment may not be aligned.
 
-Policy Simulation
+📊 Policy Simulation
 
 Allows users to experiment with infrastructure budget allocations.
 
 Estimates changes in infrastructure deficits and selected socioeconomic indicators.
 
-AI Policy Copilot
+🧠 AI Policy Copilot
 
 Generates structured policy briefs and procurement drafts.
 
 Connects recommendations to underlying citizen and demographic data.
 
-Open Data & Interoperability
+🔗 Open Data & Interoperability
 
 Provides machine-readable exports such as:
 
@@ -80,7 +80,7 @@ JSON-LD
 Provides OpenAPI documentation for integration with other systems.
 
 📁 Project Structure
-CivicPulse/
+NagarMithra/
 │
 ├── backend/
 │   ├── app/
@@ -122,12 +122,12 @@ CivicPulse/
 │   │   └── index.css
 │   │
 │   ├── index.html
-│   └── package.json
+│   │   └── package.json
 │
 ├── README.md
 └── package.json
 
-Backend
+⚙️ Backend
 
 The backend is built with Python and FastAPI.
 
@@ -151,7 +151,7 @@ Policy simulation
 
 AI-generated policy documents
 
-Frontend
+💻 Frontend
 
 The frontend is built with React.
 
@@ -215,11 +215,11 @@ ReDoc documentation:
 
 http://localhost:8000/redoc
 
-Run Backend Tests
+🧪 Run Backend Tests
 cd backend
 pytest tests
 
-Run Frontend Separately
+💻 Run Frontend Separately
 
 Open another terminal:
 
@@ -234,7 +234,7 @@ http://localhost:5173
 
 🌐 Supported Regions
 
-CivicPulse contains regional baseline data and multilingual support for selected regions across:
+NagarMithra contains regional baseline data and multilingual support for selected regions across:
 
 🇮🇳 India
 
@@ -250,7 +250,7 @@ The architecture can be extended to additional countries, administrative regions
 
 🔐 Privacy & Responsible AI
 
-CivicPulse is designed around privacy-preserving and transparent decision-support principles.
+NagarMithra is designed around privacy-preserving and transparent decision-support principles.
 
 Important design considerations include:
 
@@ -269,7 +269,6 @@ Open standards and interoperable APIs
 AI-generated outputs should be treated as decision-support information, not as automatic government decisions.
 
 📊 Technology Stack
-
 Frontend
 
 React
@@ -292,7 +291,7 @@ Pydantic
 
 Pytest
 
-AI & Analytics
+🤖 AI & Analytics
 
 NLP
 
@@ -308,7 +307,7 @@ Geospatial analytics
 
 Policy simulation
 
-Data & Standards
+📡 Data & Standards
 
 REST API
 
@@ -324,10 +323,10 @@ JSON-LD
 
 Built by Greeshma and Team
 
-CivicPulse is developed as an open-source civic technology project focused on multilingual citizen participation, infrastructure analytics, and transparent public-sector decision support.
+NagarMithra is developed as an open-source civic technology project focused on multilingual citizen participation, infrastructure analytics, and transparent public-sector decision support.
 
 🚀 Project Goal
 
-The long-term goal of CivicPulse is to provide an interoperable digital infrastructure through which citizen needs can be collected, understood, geographically analyzed, and presented to decision-makers in a transparent and evidence-based format.
+The long-term goal of NagarMithra is to provide an interoperable digital infrastructure through which citizen needs can be collected, understood, geographically analyzed, and presented to decision-makers in a transparent and evidence-based format.
 
 The platform is designed to help connect grassroots infrastructure demands with planning, budgeting, and public-service delivery while keeping humans responsible for final policy and investment decisions.
